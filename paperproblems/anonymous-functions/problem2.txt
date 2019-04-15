@@ -11,3 +11,6 @@ function call(f) {
 }
 
 call(greet);
+
+
+let call = funtion()
