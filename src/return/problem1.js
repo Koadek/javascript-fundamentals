@@ -1,14 +1,8 @@
-// Remove as many characters from this function without changing its meaning.
-// In other words, make this function as succinct as possible
+/*let f = x => (x > 10 ? 'hello' : x > 5 ? 'goodbye' : undefined);*/
 
 function f(x) {
-  if (x > 10) {
-    return 'hello';
-  } else if (x > 5) {
-    return 'goodbye';
-  } else {
-    return undefined;
-  }
+  if (x > 10) return 'hello';
+  if (x > 5) return 'goodbye';
 }
 
 module.exports = f;
